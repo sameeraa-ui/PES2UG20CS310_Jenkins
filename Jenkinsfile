@@ -8,7 +8,7 @@ git branch:'main', url : 'https://github.com/SameerParekh22/PES2UG20CS302_Jenkin
 }
 stage('Build'){
 steps{
-sh 'make -C main' }
+sh 'mak -C main' }
 }
 stage('Test'){
 steps{
